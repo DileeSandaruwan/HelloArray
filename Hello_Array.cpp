@@ -12,3 +12,18 @@ int main() {
     }
 
     printf("Sum is %d\n", sum);
+
+    //to find maximum number of the array
+    int max = numbers[0];
+    for (i = 0; i < 7; i++) {
+        if (numbers[i] > max) {
+            max = numbers[i];
+        }
+    }
+
+    printf("Max number is %d\n", max);
+
+
+    return 0;
+
+}
